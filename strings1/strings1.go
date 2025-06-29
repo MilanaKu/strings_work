@@ -12,5 +12,5 @@ func main() {
 	reader := bufio.NewScanner(os.Stdin)
 	reader.Scan()
 	scanner := reader.Text()
-	fmt.Println(utf8.RuneCountInString(scanner))
+	fmt.Print(utf8.RuneCountInString(scanner))
 }
